@@ -372,7 +372,6 @@ export default function Form() {
             <div className="label-medical">Medical History</div>
             <label>
               <input
-                // required="required"
                 type="checkbox"
                 name="medical"
                 id="smallpox"
@@ -381,7 +380,6 @@ export default function Form() {
               />
               smallpox
               <input
-                // required="required"
                 type="checkbox"
                 name="medical"
                 id="Mumps"
@@ -390,7 +388,6 @@ export default function Form() {
               />
               Mumps
               <input
-                // required="required"
                 type="checkbox"
                 name="medical"
                 id="Dizziness"
@@ -399,7 +396,6 @@ export default function Form() {
               />
               Dizziness
               <input
-                // required="required"
                 type="checkbox"
                 name="medical"
                 id="Sneezing"
