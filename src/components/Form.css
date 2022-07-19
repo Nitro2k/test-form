@@ -1,0 +1,82 @@
+.form {
+  margin-top: 5rem;
+}
+.personal-form {
+  position: relative;
+  margin: 0 auto;
+  max-width: 56.25rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+.personal-form .label {
+  position: absolute;
+  transform: translate(0%, -120%);
+}
+.personal-form-detail {
+  margin-left: 0;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+span.firstname-label {
+  border: 1px solid #ddd;
+}
+input.firstname-input {
+  margin-left: 0.125rem;
+  border: 1px solid #ddd;
+}
+span.gender-label {
+  border: 1px solid #ddd;
+}
+.gender-input {
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+span.lastname-label {
+  border: 1px solid #ddd;
+}
+input.lastname-input {
+  margin-left: 0.125rem;
+  border: 1px solid #ddd;
+}
+span.nationality-label {
+  border: 1px solid #ddd;
+}
+select.nationality-input {
+  margin-left: 0.125rem;
+  border: 1px solid #ddd;
+}
+span.address-label {
+  border: 1px solid #ddd;
+  vertical-align: top;
+  padding-right: 1.2rem;
+}
+textarea.address-textarea {
+  margin-left: 0.125rem;
+}
+.medical-form {
+  position: relative;
+  margin: 0 auto;
+  max-width: 56.25rem;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  text-align: left;
+}
+.medical-form .label-medical {
+  position: absolute;
+  transform: translate(0%, -150%);
+}
+.current-medic {
+  position: relative;
+  margin: 0 auto;
+  max-width: 56.25rem;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  text-align: left;
+}
+.current-medic .label-current-medical {
+  position: absolute;
+  transform: translate(0, -150%);
+}
+.btn {
+  margin: auto;
+}
